@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="whateverString"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Formap"
+        tools:replace="android:appComponentFactory"
+        tools:targetApi="31">
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/map_key"/>
+
+        <activity
+            android:name=".Fragment4"
+            android:exported="false" />
+        <activity
+            android:name=".Fragment3"
+            android:exported="false" />
+        <activity
+            android:name=".ViewPager2Adapter"
+            android:exported="false" />
+        <activity
+            android:name=".Fragment2"
+            android:exported="false" />
+        <activity
+            android:name=".Fragment1"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="false" />
+        <activity
+            android:name=".TasteAnalysis"
+            android:exported="false" />
+        <activity
+            android:name=".layout_popup"
+            android:exported="false" />
+        <activity
+            android:name=".bottom_sheet"
+            android:exported="false" />
+        <activity
+            android:name=".MainPage"
+            android:exported="false" />
+        <activity
+            android:name=".Join"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MyBellSet"
+            android:exported="false" />
+        <activity
+            android:name=".MyAccount"
+            android:exported="false" />
+        <activity
+            android:name=".MyFollowing"
+            android:exported="false" />
+        <activity
+            android:name=".MyEdit"
+            android:exported="false" />
+        <activity
+            android:name=".MyPage"
+            android:exported="false" />
+        <activity
+            android:name=".Map"
+            android:exported="false" />
+        <activity
+            android:name=".BoardView"
+            android:exported="false" />
+        <activity
+            android:name=".BoardWrite"
+            android:exported="false" />
+        <activity
+            android:name=".BoardList"
+            android:exported="false" />
+        <activity
+            android:name=".BoardSearch"
+            android:exported="false" />
+        <activity
+            android:name=".MyFollower"
+            android:exported="false" />
+        <activity
+            android:name=".OnBoarding"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

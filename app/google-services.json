@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "121501872949",
+    "firebase_url": "https://formap-c021f-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "formap-c021f",
+    "storage_bucket": "formap-c021f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:121501872949:android:b0ba48dda8804515e4127c",
+        "android_client_info": {
+          "package_name": "com.example.formap"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7nKkTFXKWfvsvorLnJLJYEeeTTH3y5m4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
