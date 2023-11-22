@@ -58,7 +58,7 @@
             android:name=".Join"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".OnBoarding"
             android:exported="false" />
         <activity
             android:name=".MyBellSet"
@@ -94,7 +94,7 @@
             android:name=".MyFollower"
             android:exported="false" />
         <activity
-            android:name=".OnBoarding"
+            android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

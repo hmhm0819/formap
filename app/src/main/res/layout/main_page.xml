@@ -50,7 +50,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="이번 주 인기 지도"
+            android:text="안양 산책 코스 추천"
             android:textSize="18dp"
             android:textStyle="bold"
             android:textColor="@color/c4" />
@@ -74,7 +74,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="테마별 추천"
+            android:text="안양 맛집 추천"
             android:textSize="18dp"
             android:textStyle="bold"
             android:textColor="@color/c4" />
@@ -98,7 +98,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="핫플 추천"
+            android:text="안양 핫플 추천"
             android:textSize="18dp"
             android:textStyle="bold"
             android:textColor="@color/c4" />
